@@ -5,7 +5,7 @@ akt_p:int = int(input('elért pontszám: '))
 if akt_p > max_p:
     print('Hibás adatokat adtál meg!')
 else:
-    sz:float = akt_p/max_p * 100
+    sz:float = akt_p/max_p*100
     oszt:str = '_'
     if sz < 51: oszt = 'elégtelen'
     elif sz < 65: oszt = 'elégséges'
