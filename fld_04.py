@@ -15,5 +15,5 @@ for i in range(5):
         print('  helyes!')
         talalat += 1
     else:
-        print(f'sajnos nem, a két szám {x} és {y}')
+        print(f'  sajnos nem, a két szám {x} és {y}')
 print(f'végeztünk, helyes találataid száma: {talalat}')
